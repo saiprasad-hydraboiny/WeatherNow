@@ -15,4 +15,7 @@ This bite of code is where we tell our Express server how to handle a GET reques
 
 These functions take two main parameters. The first is the URL for this function to act upon. In this case, we are targeting '/', which is the root of our website: in this case, localhost:3000.
 
-The second parameter is a function with two arguments: req, and res. req represents the request that was sent to the server; We can use this object to read data about what the client is requesting to do. res represents the response that we will send back to the client. Here, we are calling a function on res to send back a response: 'An alligator approaches!'.
+The second parameter is a function with two arguments: req, and res. req represents the request that was sent to the server; We can use this object to read data about what the client is requesting to do. res represents the response that we will send back to the client.
+# API
+ It is a set of command,functions,protocols that programmers can use to create software or interact with external system
+ 
